@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GeoSnap Checkout</title>
+    <link rel="stylesheet" href="checkoutstyle.css">
+</head>
+
+<body>
+    <header>
+        <h1>Checkout</h1>
+        <button><a href="Index.html">&#8617; Home</a></button>
+    </header>
+    <main>
+        <form>
+            <fieldset class="substype">
+                <legend>1.Choose your subscription type:</legend>
+                <br>
+                <label for="subscriptions">Subscription</label>
+                <br>
+                <select name="subscription" id="subscriptions">
+                    <option value="basic">Basic</option>
+                    <option value="standard">Standard</option>
+                    <option value="premium">Premium</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset class="billinginfo">
+                <legend>2.Billing information:</legend>
+                <br>
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="first" placeholder="John">
+                <input type="text" id="last" placeholder="Doe">
+                <label for="email">E-mail address</label>
+                <input type="email" id="email" placeholder="sample@email.com">
+                <br>
+                <label for="address">Billing address</label>
+                <br>
+                <input type="text" id="addressline1" placeholder="Address line 1">
+                <br>
+                <input type="text" id="addressline1" placeholder="Address line 2">
+                <br>
+                <input type="text" id="city" placeholder="City">
+                <br>
+                <input type="text" id="postcode" placeholder="Zipcode">
+                <input type="text" id="zipcode" placeholder="City post">
+                <br>
+                <input type="text" id="country" placeholder="Country">
+            </fieldset>
+            <fieldset class="paytype">
+                <legend>3.Choose your prefered payment method:</legend>
+                <input type="radio" id="card" name="payment" value="card">
+                <label for="card">Credit Card</label>
+                <br>
+                <input type="radio" id="bank" name="payment" value="bank">
+                <label for="bank">Bank</label>
+            </fieldset>
+            <input type="submit" id="orderform">
+        </form>
+    </main>
+    <footer>
+        <br>
+        <a href="faq.html">Frequently Asked Questions</a>
+
+        <p>Reach out to us!<br>
+            Geo@Snap.com<br>
+            +01 123 456 789<br>
+            City Street 123 09-567
+        </p>
+
+        <br>
+        <p>&#169; Copyrighted by Klara Grochot</p>
+    </footer>
+</body>
+
+</html>

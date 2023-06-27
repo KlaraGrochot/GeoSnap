@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    background: url('images/backgroundimg1.jpg');
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.userdata {
+    background-color: #212121;
+    color: #D9CAB3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1508px;
+    text-align: right;
+    padding: 5px;
+    display: inline;
+}
+
+.userdata form input {
+    border: none;
+    border-radius: 4px;
+    background-color: #efe9df;
+}
+
+#login {
+    cursor: pointer;
+    color: #212121;
+    background-color: #b29466;
+    font-size: 16px;
+}
+
+#login:hover {
+    background-color: #93764b;
+}
+
+.logo {
+    margin: 40px;
+    width: 400px;
+}
+
+.menu {
+    background-color: #212121;
+    margin-bottom: -50px;
+    margin: 0px;
+    width: 1508px;
+    height: 40px;
+    padding: 5px;
+    transform: translate(-8px, 0px);
+}
+
+.menu a {
+    font-size: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.menu a:hover {
+    padding: 5px 15px 5px 15px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #212121;
+    background-color: #6d9886c7;
+    padding: 25px 40px 25px 40px;
+    line-height: 1.5;
+    border-radius: 20px;
+    margin: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+}
+
+main h3 {
+    font-size: 28px;
+}
+
+main p {
+    font-size: 20px;
+}
+
+section {
+    color: #212121;
+    background-color: #d9cab3d3;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.noanswer {
+    background-color: #6d9886c7;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #D9CAB3;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: black;
+    color: #b29466;
+    width: fit-content;
+}
+
+footer {
+    color: #D9CAB3;
+    background-color: #212121;
+    margin: -8px;
+    height: 230px;
+}

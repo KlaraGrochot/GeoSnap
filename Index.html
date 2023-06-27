@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GeoSnap - Explore with us!</title>
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+
+<body>
+    <header>
+        <nav class="userdata">
+            <form class="logindata">
+                <label for="username">Username: </label>
+                <input type="text" id="username">
+                <label for="password">Password: </label>
+                <input type="password" id="password">
+                <input type="submit" id="login">
+            </form>
+        </nav>
+        <img src="images/GeoSnap-black.png" alt="Geosnap logo" class="logo">
+        <nav class="menu">
+            <a href="aboutus.html">About us</a>
+            <a class="current" href="Index.html">Home</a>
+            <a href="pricing.html">Pricing</a>
+        </nav>
+        <h1>The adventure of your life begins here.</h1>
+        <h2 class="toregister">
+            <a href="#register">Register
+                today!</a>
+        </h2>
+    </header>
+
+    <main>
+        <section class="shortabout">
+            <h3>About GeoSnap</h3>
+            <img src="images/about-home.jpg" alt="meeting photo" class="aboutimg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+        </section>
+        <div class="video">
+            <br>
+            <h2>See how we change the world:</h2>
+            <video controls>
+                <source src="video.url" type="video/mp4">
+                Video format not supported.
+            </video>
+        </div>
+        <section class="registerform">
+            <br>
+            <h2 id="register">Join us now!</h2>
+            <form>
+                <p>
+                    <label for="name">Username:</label>
+                    <input type="text" id="name">
+                </p>
+                <br>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </p>
+                <br>
+                <p>
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" id="phone">
+                </p>
+                <br>
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" id="newpassword">
+                </p>
+                <br>
+                <p>
+                    <label for="sex">Gender:</label>
+                    <select name="gender" id="genders">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                        <option value="secret">I prefer to not tell</option>
+                    </select>
+                </p>
+                <br>
+                <div class="checkboxes">
+                    <input type="checkbox" id="agreement">
+                    <label for="agreement" style="text-align:left; white-space:nowrap; height:80px">I consent to lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt.</label>
+
+                    <br>
+
+                    <input type="checkbox" id="marketing">
+                    <label for="marketing" style="white-space:nowrap;">I wish for GeoSnap to send me
+                        lorem
+                        ipsum dolor sit amet.</label>
+                </div>
+                <br>
+                <input type="submit" id="sendform">
+                <br>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <br>
+        <a href="faq.html">Frequently Asked Questions</a>
+
+        <p>Reach out to us!<br>
+            Geo@Snap.com<br>
+            +01 123 456 789<br>
+            City Street 123 09-567
+        </p>
+
+        <br>
+        <p>&#169; Copyrighted by Klara Grochot</p>
+    </footer>
+</body>
+
+</html>
