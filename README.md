@@ -3,7 +3,7 @@ A sample multi-page website project for my portfolio.
 
 *Warning!*
 Due to a huge mess in CSS design the page may not display correctly in different zoom settings or resolutions. (Default workspace settings: 100%, 1920x1080)
-The nav elements appear faulty and move when hovered.
+The nav menu elements appear faulty and move when hovered.
 ---
 Feedback to self:
 - Study Responsive Web Design
